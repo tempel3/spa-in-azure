@@ -1,0 +1,1 @@
+﻿Please configure BASE_URL in the Azure Function Configuration to aim to the Azure Function itself.

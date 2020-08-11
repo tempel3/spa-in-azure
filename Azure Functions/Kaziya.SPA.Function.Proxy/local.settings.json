@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "STORAGE_ACCOUNT_WEB_URL": "https://spafiles.blob.core.windows.net/spa"
+  }
+}
