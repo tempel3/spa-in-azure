@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaziya.SPA.AppService.Sidecar", "Kaziya.SPA.AppService.Sidecar\Kaziya.SPA.AppService.Sidecar.csproj", "{E8116E68-7E62-43F8-8EAB-5CFEF02E0DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaziya.SPA.AppService.Container", "Kaziya.SPA.AppService.Container\Kaziya.SPA.AppService.Container.csproj", "{921EF4BB-B7D4-43BB-8580-7E30956EF286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8116E68-7E62-43F8-8EAB-5CFEF02E0DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8116E68-7E62-43F8-8EAB-5CFEF02E0DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8116E68-7E62-43F8-8EAB-5CFEF02E0DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8116E68-7E62-43F8-8EAB-5CFEF02E0DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921EF4BB-B7D4-43BB-8580-7E30956EF286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921EF4BB-B7D4-43BB-8580-7E30956EF286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921EF4BB-B7D4-43BB-8580-7E30956EF286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921EF4BB-B7D4-43BB-8580-7E30956EF286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6C3D14-F5D9-4F53-A687-8E5AC64A5287}
+	EndGlobalSection
+EndGlobal

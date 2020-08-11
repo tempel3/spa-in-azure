@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { TutorialComponent } from './tutorial.component';
 
-import { ExerciceComponent } from './01-prototype/Exercice.component';
+import { ExerciceComponent } from './01-prototype/exercice.component';
 
 const routes: Routes = [
   {
