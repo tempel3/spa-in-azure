@@ -361,4 +361,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+set-my-env-variables.ps1
+
 dont push/

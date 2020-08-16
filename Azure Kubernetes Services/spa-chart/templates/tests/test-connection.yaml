@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "spa-chart.fullname" . }}-test-connection"
+  labels:
+{{ include "spa-chart.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args:  ['{{ include "spa-chart.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
