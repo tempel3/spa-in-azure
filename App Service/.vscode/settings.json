@@ -1,0 +1,4 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "Kaziya.SPA.AppService.Sidecar/bin/Release/netcoreapp3.1/publish"
+}
