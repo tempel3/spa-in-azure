@@ -1,7 +1,7 @@
 $ScenarioCount = 50
  
  Write-Host "AKS"
- artillery quick --count $ScenarioCount -n 20 http://spa.3bd9b466a0e14770af40.westeurope.aksapp.io/
+ artillery quick --count $ScenarioCount -n 20 http://spa2.6dfe276b0fbb4a579892.westeurope.aksapp.io/
  
  Write-Host "App Service Container"
  artillery quick --count $ScenarioCount -n 20 https://spa-in-appservice-container.azurewebsites.net/

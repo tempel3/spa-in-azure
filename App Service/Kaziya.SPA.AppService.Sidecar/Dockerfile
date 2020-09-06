@@ -13,8 +13,6 @@ WORKDIR "/src/Kaziya.SPA.AppService.Sidecar"
 RUN dotnet build "Kaziya.SPA.AppService.Sidecar.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN ls ClientApp/src/app/modules/application/example-reactive-form/
-RUN ls ClientApp/src/app/modules/application/example-reactive-form/01-prototype
 RUN dotnet publish "Kaziya.SPA.AppService.Sidecar.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS final

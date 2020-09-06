@@ -41,7 +41,7 @@ ingress:
     kubernetes.io/ingress.class: addon-http-application-routing
     kubernetes.io/tls-acme: "false"
   hosts:
-    - host: "spa.3bd9b466a0e14770af40.westeurope.aksapp.io"
+    - host: "spa.6dfe276b0fbb4a579892.westeurope.aksapp.io"
       paths:
         - "/"
   tls: []
