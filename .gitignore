@@ -374,3 +374,4 @@ FodyWeavers.xsd
 set-my-env-variables.ps1
 
 dont push/
+App Service/dist/

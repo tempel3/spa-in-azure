@@ -1,0 +1,4 @@
+{
+	"ResourceGroupName": "deploy-spa-storage",
+	"StorageAccountName": "deployspastorage"
+}
