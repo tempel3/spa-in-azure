@@ -1,0 +1,6 @@
+{
+	"ResourceGroupName": "deploy-spa-cdn",
+	"StorageAccountName": "deployspacdnstorage",
+	"CdnName": "deploy-spa-cdn",
+	"CdnEndpoint": "deploy-spa-cdn-endpoint"
+}

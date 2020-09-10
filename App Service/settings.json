@@ -1,0 +1,5 @@
+{
+	"ResourceGroupName": "deploy-spa-app-service-win",
+	"AppServicePlanName": "deploy-spa-app-service-win",
+	"AppServiceName": "deploy-spa-app-service-win-app"	
+}

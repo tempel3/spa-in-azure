@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: spadeploymentcontainerregistry.azurecr.io/spa
+  repository: deployspadockeracr.azurecr.io/spa
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -41,7 +41,7 @@ ingress:
     kubernetes.io/ingress.class: addon-http-application-routing
     kubernetes.io/tls-acme: "false"
   hosts:
-    - host: "spa.6dfe276b0fbb4a579892.westeurope.aksapp.io"
+    - host: "spa.aks.az-kaziya.de"
       paths:
         - "/"
   tls: []

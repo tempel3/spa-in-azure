@@ -1,6 +1,6 @@
 #https://www.davepaquette.com/archive/2020/05/10/deploying-a-static-site-to-azure-using-the-az-cli.aspx
 
-$Settings = Get-Content -Raw -Path settings.json | ConvertFrom-Json
+$Settings = Get-Content -Raw -Path storage-settings.json | ConvertFrom-Json
 
 az group create --name $Settings.ResourceGroupName --location germanywestcentral
 #az configure --defaults group=$Settings.ResourceGroupName location=germanywestcentral
